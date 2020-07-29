@@ -20,4 +20,4 @@ class Products extends StatelessWidget {
             ),
     );
   }
-} {}
+} 
