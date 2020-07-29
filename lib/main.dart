@@ -8,17 +8,15 @@ main() {
 
 class MyApp extends StatelessWidget {
   @override
-
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('EasyList'),
-          centerTitle: true,
-          backgroundColor: Colors.orange,
-        ),
-        body: ProductManager()
-      ),
+          appBar: AppBar(
+            title: Text('EasyList'),
+            centerTitle: true,
+            backgroundColor: Colors.orange,
+          ),
+          body: ProductManager('Food Tester')),
     );
   }
 }
