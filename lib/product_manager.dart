@@ -17,13 +17,15 @@ class _ProductManagerState extends State<ProductManager> {
   Widget build(BuildContext context) {
     return Column(children: [Container(
               margin: EdgeInsets.all(10.0),
-              child: RaisedButton(
+              child: RaisedButton.icon(
+                icon: Icon(Icons.add),
                 onPressed: () {
                   setState(() {
                     _products.add('value');
                   });
                 },
-                child: Text('Add Products'),
+                label: Text('Add Products'),
+                color: Colors.orange,
               ),
             ),
             Products(_products)

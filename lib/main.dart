@@ -14,6 +14,8 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('EasyList'),
+          centerTitle: true,
+          backgroundColor: Colors.orange,
         ),
         body: ProductManager()
       ),
