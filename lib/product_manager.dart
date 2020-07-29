@@ -32,8 +32,7 @@ class _ProductManagerState extends State<ProductManager> {
               });
             },
             label: Text('Add Products'),
-            color: Colors.orange,
-            textColor: Colors.white),
+            color: Theme.of(context).primaryColor),
       ),
       Products(_products)
     ]);
